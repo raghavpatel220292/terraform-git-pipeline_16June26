@@ -1,11 +1,11 @@
 resource "azurerm_resource_group" "rgs" {
-  name     = "test-rg88"
+  name     = "test-rg99"
   location = "centralindia"
 }
 
 
 resource "azurerm_storage_account" "stg" {
-  name                     = "storageaccount8800"
+  name                     = "storageaccount9900"
   resource_group_name      = azurerm_resource_group.rgs.name
   location                 = azurerm_resource_group.rgs.location
   account_tier             = "Standard"
