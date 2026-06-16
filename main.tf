@@ -79,7 +79,7 @@ resource "azurerm_network_interface_security_group_association" "nsg_attach" {
 
 
 resource "azurerm_windows_virtual_machine" "VM" {
-  name                = "Windows-VM"
+  name                = "Windows-VM22"
   resource_group_name = azurerm_resource_group.rgs.name
   location            = azurerm_resource_group.rgs.location
   size                = "Standard_B2as_v2"
